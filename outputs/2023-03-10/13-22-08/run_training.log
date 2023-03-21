@@ -1,0 +1,18 @@
+[2023-03-10 13:22:09,014][src.train][INFO] - Number of devices = 2 > 1. Setting n_threads = 0 and disabling opencl to prevent deadlocks.
+[2023-03-10 13:22:09,673][src.data.dataset][INFO] - Dataset size: 112120
+[2023-03-10 13:22:09,694][src.data.dataset][INFO] - Prepared canonical chest from : /home/orogov/smbmount/from_DGX/cxr14-2/canonical_chest.png
+[2023-03-10 13:22:09,908][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2023-03-10 13:22:10,064][src.modules][INFO] - Loading checkpoint from: /home/orogov/smbmount/a_galichin/experiments/xvision/checkpoints/V1_nih14_densenet121_320x320_mbce_bs64/epoch=5-val_loss=0.205.ckpt
+[2023-03-10 13:22:14,133][src.train][INFO] - Number of devices = 2 > 1. Setting n_threads = 0 and disabling opencl to prevent deadlocks.
+[2023-03-10 13:22:14,781][src.data.dataset][INFO] - Dataset size: 112120
+[2023-03-10 13:22:14,813][src.data.dataset][INFO] - Prepared canonical chest from : /home/orogov/smbmount/from_DGX/cxr14-2/canonical_chest.png
+[2023-03-10 13:22:15,035][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2023-03-10 13:22:15,191][src.modules][INFO] - Loading checkpoint from: /home/orogov/smbmount/a_galichin/experiments/xvision/checkpoints/V1_nih14_densenet121_320x320_mbce_bs64/epoch=5-val_loss=0.205.ckpt
+[2023-03-10 13:22:16,794][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-03-10 13:22:16,801][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2023-03-10 13:22:16,801][torch.distributed.distributed_c10d][INFO] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-03-10 13:22:16,804][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-03-10 13:22:18,083][src.models][INFO] - Calculating anchor features: Start
+[2023-03-10 13:22:18,084][src.models][INFO] - Calculating anchor features: Start
+[2023-03-10 13:22:18,587][src.models][INFO] - Calculating anchor features: Done
+[2023-03-10 13:22:18,650][src.models][INFO] - Calculating anchor features: Done

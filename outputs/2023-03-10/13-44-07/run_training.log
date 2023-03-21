@@ -1,0 +1,18 @@
+[2023-03-10 13:44:07,281][src.train][INFO] - Number of devices = 2 > 1. Setting n_threads = 0 and disabling opencl to prevent deadlocks.
+[2023-03-10 13:44:08,257][src.data.dataset][INFO] - Dataset size: 112120
+[2023-03-10 13:44:08,286][src.data.dataset][INFO] - Prepared canonical chest from : /home/orogov/smbmount/from_DGX/cxr14-2/canonical_chest.png
+[2023-03-10 13:44:08,646][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2023-03-10 13:44:10,406][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/vgg16-397923af.pth)
+[2023-03-10 13:44:14,620][src.train][INFO] - Number of devices = 2 > 1. Setting n_threads = 0 and disabling opencl to prevent deadlocks.
+[2023-03-10 13:44:15,580][src.data.dataset][INFO] - Dataset size: 112120
+[2023-03-10 13:44:15,622][src.data.dataset][INFO] - Prepared canonical chest from : /home/orogov/smbmount/from_DGX/cxr14-2/canonical_chest.png
+[2023-03-10 13:44:15,985][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2023-03-10 13:44:18,055][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/vgg16-397923af.pth)
+[2023-03-10 13:44:18,483][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-03-10 13:44:18,484][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2023-03-10 13:44:18,484][torch.distributed.distributed_c10d][INFO] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-03-10 13:44:18,493][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-03-10 13:44:20,798][src.models][INFO] - Calculating anchor features: Start
+[2023-03-10 13:44:20,799][src.models][INFO] - Calculating anchor features: Start
+[2023-03-10 13:44:21,589][src.models][INFO] - Calculating anchor features: Done
+[2023-03-10 13:44:21,728][src.models][INFO] - Calculating anchor features: Done
