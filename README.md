@@ -6,4 +6,4 @@ Team:
 
 Andrey Galichin\
 Evgeny Gurov\
-Arkady Andreev
+Arkadiy Vladimirov
